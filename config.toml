@@ -1,0 +1,27 @@
+baseURL = "https://nolte.github.io/minecraft-gameserver"
+languageCode = "de"
+title = "Minecraft GameServer"
+theme = "hugo-cards"
+paginate = 6
+
+[params]
+  builtBy = "nolte"
+  defaultImage = "gopher.jpg"
+
+  facebook = ""
+  quora = ""
+  twitter = ""
+  github = "http://github.com/nolte"
+  email = ""
+
+  fbLikeBox = ""
+  fbAppId = ""
+  fbPageUrl = ""
+  fbPageTitle = ""
+
+  analytics = ""
+  disqus = ""
+
+  [params.copyright]
+     name = "nolte"
+     link = "http://github.com/nolte"
