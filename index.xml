@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Minecraft GameServer</title>
+    <link>https://nolte.github.io/minecraft-gameserver/</link>
+    <description>Recent content on Minecraft GameServer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <lastBuildDate>Tue, 26 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://nolte.github.io/minecraft-gameserver/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Einleitung</title>
+      <link>https://nolte.github.io/minecraft-gameserver/posts/introduction/</link>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/posts/introduction/</guid>
+      <description>der Server</description>
+    </item>
+    
+    <item>
+      <title>Plätze und Koordinaten</title>
+      <link>https://nolte.github.io/minecraft-gameserver/posts/locations/</link>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/posts/locations/</guid>
+      <description> Creative World Survival World Flat World  </description>
+    </item>
+    
+    <item>
+      <title>Technische Beschreibung</title>
+      <link>https://nolte.github.io/minecraft-gameserver/posts/techincal-description/</link>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/posts/techincal-description/</guid>
+      <description>Das Host You Own Minecraft Server Projekt besteht im wesentlichen aus drei GitRepositories, welche alle bei GitHub zu finden sind. Ziel ist es die Komplette Infrastruktur im SourceCode zu verwalten und öffentlich auf GitHub für die Wiederverwendung zu presentieren.
+Der Blog  Star Watch Fork Issue    Der mit Hilfe von Hugo generierte Blog (nolte/minecraft-gameserver) trennt den Redaktionellen Teil des Projektes vom Technischen-Aufbau.
+Die Infrastruktur  Star Watch Fork Issue          Die Infrastruktur wird aktuell bei hetzner.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://nolte.github.io/minecraft-gameserver/pages/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/pages/about/</guid>
+      <description>about</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://nolte.github.io/minecraft-gameserver/pages/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/pages/contact/</guid>
+      <description>contact</description>
+    </item>
+    
+    <item>
+      <title>World Creative</title>
+      <link>https://nolte.github.io/minecraft-gameserver/pages/world-creative/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/pages/world-creative/</guid>
+      <description>Creative World Die Creative World ist die Startwelt, auf welcher neue Spieler den Server betreten, von hier gelangt man über die Hauptstadt in anderen Welten.
+Diese Welt ist eine geschützte Welt auf welcher nur ausgewählte Spieler Bauen können. Die Spieler müssen Mitglied der Gruppe gamers_creative_builder sein.
+Spawn Koordinaten: 2642 25 -5552 (sollen noch an das SpawnDorf angepasst werden)
+Orte    Place WorldGuardId Koordinaten Beschreibung     Berg Dorf  4047 67 -5768 Das Bergdorf mit der Rohstoff Versorgung.</description>
+    </item>
+    
+    <item>
+      <title>World Flat</title>
+      <link>https://nolte.github.io/minecraft-gameserver/pages/world-flat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/pages/world-flat/</guid>
+      <description>Flat Construction World    Place WorldGuardId Koordinaten Beschreibung     Main  21 4 6 Haupt Bereich für den Spielbereich   rail  -330 4 -200 Railway Area   Farmv2  -1424 20 190 Neue Farm   railway rohstoff trasport  -391 4 290    Hopper Chest Stuff  -374 4 182    Connected Farm Buildings  -1137 74 -237     137 24 -241</description>
+    </item>
+    
+    <item>
+      <title>World Survival</title>
+      <link>https://nolte.github.io/minecraft-gameserver/pages/world-survival/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/pages/world-survival/</guid>
+      <description> Survival Map Orte    Place WorldGuardId Koordinaten Beschreibung     Mo &amp;amp; Co  -609 73 380    me  -805 70 176 Mein kleines Heim in der Survival Map   Bärschi  -937 78 579    Spawn  15 67 7 Pyramide    </description>
+    </item>
+    
+  </channel>
+</rss>

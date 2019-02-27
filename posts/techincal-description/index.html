@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+<link rel="stylesheet" href="/minecraft-gameserver/sass/main.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://nolte.github.io/minecraft-gameserver">Minecraft GameServer</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://nolte.github.io/minecraft-gameserverpages/about/">About</a></li>
+        <li><a href="https://nolte.github.io/minecraft-gameserverpages/contact/">Contact</a></li>
+  </div>
+</nav>
+</header>
+
+
+    <div class="container">
+      <div class="wrapper">
+        
+<div class="row">
+<div class="col-md-8">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+          <header class="post-header">
+            <h1 class="post-title" itemprop="name headline">Technische Beschreibung</h1>
+            <p class="post-meta"><time datetime='2019-02-26T00:00:00Z' itemprop="datePublished">February 26, 2019</time></p>
+                 
+          </header>
+
+          <div class="post-content" itemprop="articleBody">
+            
+
+<p>Das <em>Host You Own Minecraft Server</em> Projekt besteht im wesentlichen aus drei GitRepositories, welche alle bei <a href="https://github.com/nolte?utf8=%E2%9C%93&amp;tab=repositories&amp;q=minecraft&amp;type=&amp;language=">GitHub</a> zu finden sind. Ziel ist es die Komplette Infrastruktur im SourceCode zu verwalten und öffentlich auf GitHub für die Wiederverwendung zu presentieren.</p>
+
+<h2 id="der-blog">Der Blog</h2>
+
+<p>
+
+<a class="github-button" href="https://github.com/nolte/minecraft-gameserver" data-icon="octicon-star" data-show-count="true" aria-label="Star nolte/minecraft-gameserver on GitHub">Star</a>
+
+
+
+
+
+
+
+
+<a class="github-button" href="https://github.com/nolte/minecraft-gameserver/subscription" data-icon="octicon-eye" data-show-count="true" aria-label="Watch  nolte/minecraft-gameserver on GitHub">Watch</a>
+
+
+
+
+
+
+
+
+<a class="github-button" href="https://github.com/nolte/minecraft-gameserver/fork" data-icon="octicon-repo-forked" data-show-count="true" aria-label="Fork nolte/minecraft-gameserver on GitHub">Fork</a>
+
+
+
+
+
+
+
+
+<a class="github-button" href="https://github.com/nolte/minecraft-gameserver/issues" data-icon="octicon-issue-opened" data-show-count="true" aria-label="Issue nolte/minecraft-gameserver on GitHub">Issue</a>
+
+
+<span>
+  <a href='https://travis-ci.org/nolte/minecraft-gameserver?branch=master' >
+      <img src='https://travis-ci.org/nolte/minecraft-gameserver.svg?branch=master' alt='Build Status' style="padding-bottom: 10px;" />
+  </a>
+</span>
+</p>
+
+<p>Der mit Hilfe von <a href="https://gohugo.io">Hugo</a> generierte Blog (<a href="https://github.com/nolte/minecraft-gameserver">nolte/minecraft-gameserver</a>) trennt den Redaktionellen Teil des Projektes vom Technischen-Aufbau.</p>
+
+<h2 id="die-infrastruktur">Die Infrastruktur</h2>
+
+<p>
+
+<a class="github-button" href="https://github.com/nolte/minecraft-server" data-icon="octicon-star" data-show-count="true" aria-label="Star nolte/minecraft-server on GitHub">Star</a>
+
+
+
+
+
+
+
+
+<a class="github-button" href="https://github.com/nolte/minecraft-server/subscription" data-icon="octicon-eye" data-show-count="true" aria-label="Watch  nolte/minecraft-server on GitHub">Watch</a>
+
+
+
+
+
+
+
+
+<a class="github-button" href="https://github.com/nolte/minecraft-server/fork" data-icon="octicon-repo-forked" data-show-count="true" aria-label="Fork nolte/minecraft-server on GitHub">Fork</a>
+
+
+
+
+
+
+
+
+<a class="github-button" href="https://github.com/nolte/minecraft-server/issues" data-icon="octicon-issue-opened" data-show-count="true" aria-label="Issue nolte/minecraft-server on GitHub">Issue</a>
+
+
+<span>
+  <a href='https://minecraft-server.readthedocs.io/en/master/?badge=master' >
+      <img src='https://readthedocs.org/projects/minecraft-server/badge/?version=master' alt='Documentation Status' style="padding-bottom: 10px;" />
+  </a>
+</span>
+
+<span>
+  <a href='https://travis-ci.org/nolte/ansible-minecraft?branch=master' >
+      <img src='https://travis-ci.org/nolte/ansible-minecraft.svg?branch=master' alt='Build Status' style="padding-bottom: 10px;" />
+  </a>
+</span>
+
+<span>
+  <a href='https://circleci.com/gh/nolte/ansible-minecraft/tree/master' >
+      <img src='https://circleci.com/gh/nolte/ansible-minecraft/tree/master.svg?style=svg' alt='Build Status' style="padding-bottom: 10px;" />
+  </a>
+</span>
+</p>
+
+<p>Die Infrastruktur wird aktuell bei <a href="https://hetzner.de/cloud">hetzner.de</a> betrieben und mit einer Kombination von <a href="https://www.ansible.com/">Ansible</a> und <a href="https://www.terraform.io/">Terraform</a> bereitgestellt, weitere Informationen sind im <a href="https://github.com/nolte/minecraft-server">nolte/minecraft-server</a> Repository zu finden.</p>
+
+<h2 id="minecraft-ansible-role">Minecraft Ansible Role</h2>
+
+<p>
+
+<a class="github-button" href="https://github.com/nolte/ansible-minecraft" data-icon="octicon-star" data-show-count="true" aria-label="Star nolte/ansible-minecraft on GitHub">Star</a>
+
+
+
+
+
+
+
+
+<a class="github-button" href="https://github.com/nolte/ansible-minecraft/subscription" data-icon="octicon-eye" data-show-count="true" aria-label="Watch  nolte/ansible-minecraft on GitHub">Watch</a>
+
+
+
+
+
+
+
+
+<a class="github-button" href="https://github.com/nolte/ansible-minecraft/fork" data-icon="octicon-repo-forked" data-show-count="true" aria-label="Fork nolte/ansible-minecraft on GitHub">Fork</a>
+
+
+
+
+
+
+
+
+<a class="github-button" href="https://github.com/nolte/ansible-minecraft/issues" data-icon="octicon-issue-opened" data-show-count="true" aria-label="Issue nolte/ansible-minecraft on GitHub">Issue</a>
+
+
+<span>
+  <a href='https://ansible-minecraft.readthedocs.io/en/master/?badge=master' >
+      <img src='https://readthedocs.org/projects/ansible-minecraft/badge/?version=master' alt='Documentation Status' style="padding-bottom: 10px;" />
+  </a>
+</span>
+
+<span>
+  <a href='https://travis-ci.org/nolte/ansible-minecraft?branch=master' >
+      <img src='https://travis-ci.org/nolte/ansible-minecraft.svg?branch=master' alt='Build Status' style="padding-bottom: 10px;" />
+  </a>
+</span>
+
+<span>
+  <a href='https://circleci.com/gh/nolte/ansible-minecraft/tree/master' >
+      <img src='https://circleci.com/gh/nolte/ansible-minecraft/tree/master.svg?style=svg' alt='Build Status' style="padding-bottom: 10px;" />
+  </a>
+</span>
+</p>
+
+<p>Der Minecraft Server wird mit Hilfe eine Ansible Role (<a href="https://github.com/nolte/ansible-minecraft">nolte/ansible-minecraft</a>) konfiguriert und installiert. Diese Role ist durch <a href="https://galaxy.ansible.com/nolte/minecraft">Ansible Galaxy</a> einfach nutzbar.</p>
+
+          </div>
+
+    </article>
+    <div class="row">
+        
+    </div>
+    
+    <div class="row">
+            <ul class="pager">
+             
+                    <li><a class="next" href="/minecraft-gameserver/pages/about/">&laquo; About</a></li>
+              
+              
+                <li><a class="previous" href="/minecraft-gameserver/posts/locations/">Plätze und Koordinaten &raquo;</a></li>
+              
+            </ul>
+    </div>
+</div>
+
+
+<div class="col-md-4 mt20">
+        <div class="post-img">
+           
+            <img width="600" src="https://nolte.github.io/minecraft-gameserverimages/gopher.jpg" alt="webjeda">
+            
+        </div>
+            
+        
+        <div class="mt10 recent">
+            <h2>Recent articles</h2>        
+             <ul>
+                
+
+                      <li>
+                      <p><a href="/minecraft-gameserver/posts/introduction/">Einleitung</a><small>&nbsp;&nbsp;February 26, 2019</small></p>
+                      </li>
+
+                
+
+                      <li>
+                      <p><a href="/minecraft-gameserver/posts/locations/">Plätze und Koordinaten</a><small>&nbsp;&nbsp;February 26, 2019</small></p>
+                      </li>
+
+                
+
+                      <li>
+                      <p><a href="/minecraft-gameserver/posts/techincal-description/">Technische Beschreibung</a><small>&nbsp;&nbsp;February 26, 2019</small></p>
+                      </li>
+
+                
+              </ul>
+        </div>
+        
+        <br>
+
+</div>
+
+</div>
+
+
+
+
+      </div>
+    </div>
+
+    <footer>
+    <div class="container">
+        <div class="row p20">
+            
+                <div class="col-md-4 text-center mt25">All rights reserved by <a target="_blank" href="http://github.com/nolte">nolte</a></div>
+            
+
+            <div class="col-md-4 text-center mt25" >
+                
+                <a target="_blank" href="https://bool.netlify.com"><img src="https://img.shields.io/badge/Built%20by-bool-brightgreen.svg" alt="nolte"></a>
+                
+            </div>
+            <div class="col-md-4 text-center mt25">
+               
+               
+               
+               
+                <a target="_blank" href="http://github.com/nolte"><li class="social github"><i class="fa fa-github-square"></i></li></a>
+                
+               
+            </div>
+
+        </div> 
+    </div>
+</footer>
+    
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="https://nolte.github.io/minecraft-gameserver/js/bootstrap.min.js"></script>
+  
+  </body>
+
+</html>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/posts/introduction/</loc>
+    <lastmod>2019-02-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/posts/locations/</loc>
+    <lastmod>2019-02-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/posts/techincal-description/</loc>
+    <lastmod>2019-02-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/pages/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/pages/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/</loc>
+    <lastmod>2019-02-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/pages/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/posts/</loc>
+    <lastmod>2019-02-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/pages/world-creative/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/pages/world-flat/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/pages/world-survival/</loc>
+  </url>
+  
+</urlset>
