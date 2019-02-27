@@ -3,5 +3,6 @@ go:
   - master
 install:
   - go get github.com/spf13/hugo # This provides the latest version of Hugo to Travis CI
+  - git clone --depth 1 --recursive https://github.com/bul-ikana/hugo-cards.git themes/hugo-cards
 script:
   - hugo # This commands builds your website on travis
