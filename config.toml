@@ -1,4 +1,4 @@
-baseURL = "https://nolte.github.io/minecraft-gameserver"
+baseURL = "https://nolte.github.io/minecraft-gameserver/"
 languageCode = "de"
 title = "Minecraft GameServer"
 theme = "hugo-cards"
