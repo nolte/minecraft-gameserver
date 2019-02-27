@@ -1,16 +1,19 @@
 language: go
 go:
-  - master
+- master
 install:
-  - go get github.com/spf13/hugo # This provides the latest version of Hugo to Travis CI
-  - git clone --depth 1 --recursive https://github.com/bul-ikana/hugo-cards.git themes/hugo-cards
+- go get github.com/spf13/hugo
+- git clone --depth 1 --recursive https://github.com/bul-ikana/hugo-cards.git themes/hugo-cards
 script:
-  - hugo # This commands builds your website on travis
+- hugo
 deploy:
   provider: pages
   skip-cleanup: true
   github-token: "$GITHUB_TOKEN"
   keep-history: true
-  local-dir: "public/"
+  local-dir: public/
   on:
     branch: master
+env:
+  global:
+    secure: XPiEOTQxAz9m/5RSjN02/AEf242HwED4Jjkf6Chsd7EnPfNNx+r/nYpEhhY5CKwUYLZf7yVSzod9gog/38LLTgN+3tvoI+ZDU7oxVswMSglFQ0yjEnBg5/jB+6+JV9nnZVgJDX223HbTcW2RFXHfAHcMbbDdKnM1fjbHP1jJQK0rY+WD3rDsEGiJzXdFB30l60+DOyQz0JHhA7riUwBnkUVNrqYXKIHGVsLdcTDofbbiwMos2zY4DEb/NsweDxTfrg6JyStFLDXTVUW7rWP6kh8jYvaLJ263leeZ1GDbp0mP9WIHV1byAk7yOvtEf6oDe5k3rw2iwNYDInDWM8q+rPk4L9qNv6bfBICf3OqY5ruM7pLNqFOG8lQfOpKjCvkyW2znwXEJ7FMMf3geu3DnunnnVT3M4KKIrtGA3u5tsTQ4yn/Rz9F2+/0zeKMLA5iZMzSac7gvWLniP85oit01UIn8RuZ8+j1aWqO60l1T43MAr6XKnMvb67a1MEZBmRrpS6RmaMMoLbESE+UejDvAOMmvbfWivo6r5A+rupGEXFYM/ktIQmkGNXxkm7tywEsm2Ebh6ICUoVslghQ1vndSpjOkEcsL5RkViOB7dZXGyclL3OBNBPyKoPv3FheFfU2NLcYF6kRaBtbdrYm1npOhcrZe6oVyOd2a7+sbtWkc9K8=
