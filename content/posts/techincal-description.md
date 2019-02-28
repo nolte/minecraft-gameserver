@@ -26,7 +26,7 @@ Der mit Hilfe von [Hugo](https://gohugo.io) generierte Blog ([nolte/minecraft-ga
 {{< travisci repo="nolte/minecraft-infrastructure" branch="master" >}}
 {{< circleci repo="nolte/minecraft-infrastructure" branch="master" >}}
 
-Die Infrastruktur wird aktuell bei [hetzner.de](https://hetzner.de/cloud) betrieben und mit einer Kombination von [Ansible](https://www.ansible.com/) und [Terraform](https://www.terraform.io/) bereitgestellt, weitere Informationen sind im [nolte/minecraft-server](https://github.com/nolte/minecraft-server) Repository zu finden.
+Die Infrastruktur wird aktuell bei [hetzner.de](https://hetzner.de/cloud) betrieben und mit einer Kombination von [Ansible](https://www.ansible.com/) und [Terraform](https://www.terraform.io/) bereitgestellt, weitere Informationen sind im [nolte/minecraft-infrastructure](https://github.com/nolte/minecraft-infrastructure) Repository zu finden.
 
 ## Minecraft Ansible Role
 
