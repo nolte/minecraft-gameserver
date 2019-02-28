@@ -18,13 +18,13 @@ Der mit Hilfe von [Hugo](https://gohugo.io) generierte Blog ([nolte/minecraft-ga
 
 ## Die Infrastruktur
 
-{{< githubrepostars type="stars" id="nolte/minecraft-server" >}}
-{{< githubrepostars type="watch" id="nolte/minecraft-server" >}}
-{{< githubrepostars type="forked" id="nolte/minecraft-server" >}}
-{{< githubrepostars type="issue" id="nolte/minecraft-server" >}}
-{{< readthedocs repo="minecraft-server" version="master" >}}
-{{< travisci repo="nolte/ansible-minecraft" branch="master" >}}
-{{< circleci repo="nolte/ansible-minecraft" branch="master" >}}
+{{< githubrepostars type="stars" id="nolte/minecraft-infrastructure" >}}
+{{< githubrepostars type="watch" id="nolte/minecraft-infrastructure" >}}
+{{< githubrepostars type="forked" id="nolte/minecraft-infrastructure" >}}
+{{< githubrepostars type="issue" id="nolte/minecraft-infrastructure" >}}
+{{< readthedocs repo="minecraft-infrastructure" version="master" >}}
+{{< travisci repo="nolte/minecraft-infrastructure" branch="master" >}}
+{{< circleci repo="nolte/minecraft-infrastructure" branch="master" >}}
 
 Die Infrastruktur wird aktuell bei [hetzner.de](https://hetzner.de/cloud) betrieben und mit einer Kombination von [Ansible](https://www.ansible.com/) und [Terraform](https://www.terraform.io/) bereitgestellt, weitere Informationen sind im [nolte/minecraft-server](https://github.com/nolte/minecraft-server) Repository zu finden.
 
