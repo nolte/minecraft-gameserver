@@ -1,6 +1,6 @@
 ---
 layout: page
-title: denizen
+title: Denizen
 repo:
   id: DenizenScript/Denizen-For-Bukkit
 links:

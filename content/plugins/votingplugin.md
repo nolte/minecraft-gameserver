@@ -1,6 +1,6 @@
 ---
 layout: page
-title: votingplugin
+title: VotingPlugin
 repo:
   id: Ben12345rocks/VotingPlugin
 links:

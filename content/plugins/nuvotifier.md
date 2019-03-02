@@ -1,6 +1,6 @@
 ---
 layout: page
-title: nuvotifier
+title: NuVotifier
 repo:
   id: NuVotifier/NuVotifier
 links:

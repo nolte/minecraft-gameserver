@@ -1,6 +1,6 @@
 ---
 layout: page
-title: prometheus
+title: Prometheus
 repo:
   type: github
   id: sladkoff/minecraft-prometheus-exporter

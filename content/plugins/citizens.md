@@ -1,11 +1,12 @@
 ---
 layout: page
-title: citizens 2
+title: Citizens 2
+repo:
+  id: mcmonkeyprojects/Sentinel
 links:
- - https://wiki.citizensnpcs.co/Denizen
- - https://github.com/mcmonkeyprojects/Sentinel
- - https://wiki.citizensnpcs.co/Editors
- - https://www.youtube.com/watch?v=9hhxnp-RjCM
+ - url: https://wiki.citizensnpcs.co/Denizen
+ - url: https://wiki.citizensnpcs.co/Editors
+ - url: https://www.youtube.com/watch?v=9hhxnp-RjCM
 ---
 
 

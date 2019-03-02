@@ -1,6 +1,6 @@
 ---
 layout: page
-title: per world inventory
+title: PerWorldInventory
 repo:
   id: EbonJaeger/perworldinventory-kt
 ---

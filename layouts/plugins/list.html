@@ -1,0 +1,26 @@
+{{ define "main" }}
+
+<div class="home">
+<div class="table-responsive">
+  <table class="table">
+    <caption>Liste der genutzten Plugins</caption>
+    <tr>
+      <th>Plugin</th>
+      <th>Github</th>
+      <th>Beschreibung</th>
+    </tr>
+    {{ with .Site.GetPage "section" "plugins" }}
+    {{ range .Pages }}
+    <tr>
+      <td><a href="{{.Permalink}}">{{ .Title }}</a></td>
+      <td>
+        <a href="https://github.com/{{.Params.repo.id}}"> <span class="fab fa-github" data-toggle="tooltip" data-placement="bottom" title="{{ .Params.repo.id }}"></span></a></td>
+      <td>{{ if .Params.description }}{{ .Params.description }}{{ end }}</td>
+    </tr>
+    {{ end }}
+    {{ end }}
+  </table>
+</div>
+</div>
+
+{{ end }}
