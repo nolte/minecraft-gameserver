@@ -18,6 +18,10 @@
   </url>
   
   <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/pages/plugins/</loc>
+  </url>
+  
+  <url>
     <loc>https://nolte.github.io/minecraft-gameserver/pages/about/</loc>
   </url>
   
@@ -31,14 +35,50 @@
   </url>
   
   <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/plugins/craftbook/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/plugins/discordsrv/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/plugins/dynmap/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/plugins/essentialsx/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/plugins/luckperms/</loc>
+  </url>
+  
+  <url>
     <loc>https://nolte.github.io/minecraft-gameserver/</loc>
     <lastmod>2019-02-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/plugins/multiverse-netherportals/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/plugins/multiverse-portals/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/plugins/multiverse-signportals/</loc>
+  </url>
+  
+  <url>
     <loc>https://nolte.github.io/minecraft-gameserver/pages/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/plugins/</loc>
   </url>
   
   <url>
@@ -48,8 +88,16 @@
   </url>
   
   <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/plugins/sentinel/</loc>
+  </url>
+  
+  <url>
     <loc>https://nolte.github.io/minecraft-gameserver/tags/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/plugins/vault/</loc>
   </url>
   
   <url>
@@ -62,6 +110,42 @@
   
   <url>
     <loc>https://nolte.github.io/minecraft-gameserver/pages/world-survival/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/plugins/worldedit/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/plugins/worldguard/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/plugins/blacksmith/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/plugins/citizens/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/plugins/denizen/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/plugins/nuvotifier/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/plugins/perworldinventory/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/plugins/prometheus/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/plugins/votingplugin/</loc>
   </url>
   
 </urlset>

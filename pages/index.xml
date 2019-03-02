@@ -11,6 +11,15 @@
     
     
     <item>
+      <title></title>
+      <link>https://nolte.github.io/minecraft-gameserver/pages/plugins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/pages/plugins/</guid>
+      <description>xxx CraftBook, (CraftBook ermöglicht es komplexe Block Aktivitäten über Schilder zu steuern (Toore, Brücken Fahrstühle usw...).) DiscordSRV, (DiscordSRV wird verwendet um einen bidirektionalen Chat zwischen Minecraft und Discord zu ermöglichen.) DynMap, (Html Google Like Minecraft Map) EssentialsX, (Nützliche Sammlung von Befehlen und Erweiterungen, z.B. Plegen der Willkommensnachricht, AFK system usw...) LuckPerms, (Permission Controll) Multiverse-NetherPortals Multiverse-Portals, (Um eine Verbindung zwischen einzelnen Welten, und eine Simple Transportmöglichkeit zu ermöglichen wird Multiverse-Portals verwendet.) Multiverse-SignPortals Sentinel Vault WorldEdit WorldGuard blacksmith citizens 2 denizen nuvotifier per world inventory prometheus votingplugin </description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>https://nolte.github.io/minecraft-gameserver/pages/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
