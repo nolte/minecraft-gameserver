@@ -1,0 +1,13 @@
+<!-- Place this tag where you want the button to render. -->
+{{ if eq .type "stars" }}
+<a class="github-button" href="https://github.com/{{ .id }}" data-icon="octicon-star" data-show-count="true" aria-label="Star {{ .id }} on GitHub">Star</a>
+{{ end }}
+{{ if eq .type "watch" }}
+<a class="github-button" href="https://github.com/{{ .id }}/subscription" data-icon="octicon-eye" data-show-count="true" aria-label="Watch  {{ .id }} on GitHub">Watch</a>
+{{ end }}
+{{ if eq .type "forked" }}
+<a class="github-button" href="https://github.com/{{ .id }}/fork" data-icon="octicon-repo-forked" data-show-count="true" aria-label="Fork {{ .id }} on GitHub">Fork</a>
+{{ end }}
+{{ if eq .type "issue" }}
+<a class="github-button" href="https://github.com/{{ .id }}/issues" data-icon="octicon-issue-opened" data-show-count="true" aria-label="Issue {{ .id }} on GitHub">Issue</a>
+{{ end }}

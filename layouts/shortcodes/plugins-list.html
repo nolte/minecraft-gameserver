@@ -1,0 +1,16 @@
+
+{{ if eq (.Get "type") "list-view" }}
+{{ with .Site.GetPage "section" "plugins" }}
+{{ range .Pages }}
+  <li><a href="{{.Permalink}}">{{ .Title }}</a>{{ if .Params.description }}, ({{ .Params.description }}){{ end }}</li>
+{{ end }}
+{{ end }}
+
+{{ end }}
+{{ if eq (.Get "type") "simple-view" }}
+{{ with .Site.GetPage "section" "plugins" }}
+{{ range .Pages }}
+  <a href="{{.Permalink}}">{{ .Title }}</a>,
+{{ end }}
+{{ end }}
+{{ end }}

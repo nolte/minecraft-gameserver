@@ -1,0 +1,16 @@
+<ul>
+{{ range .Params.links }}
+{{ if isset . "url"}}
+<li>
+<div>
+  <a href="{{ .url }}">{{ .title  | default .url  }}</a> {{ if isset . "description"}}({{ .description}}){{ end }}
+<div>
+</li>
+{{ end }}
+{{ if isset . "type"}}
+{{ if eq .type "github" }}
+<div><strong>GithHub: </strong>{{ partial "githubrepostars.html" (dict "type" "stars" "id" .repo) }}</div>
+{{ end }}
+{{ end }}
+{{ end }}
+</ul>

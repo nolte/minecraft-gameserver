@@ -1,0 +1,39 @@
+{{ define "main" }}
+<div class="row">
+<div class="col-md-8">
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ .Title }}</h1>
+  </header>
+
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+
+  {{ if or (isset .Params "links") (isset .Params "repo") }}
+  <div class="post-links">
+      <h2>Links</h2>
+      <div>
+        {{ partial "formatted-link-list.html" . .Params.links}}
+      </div>
+      {{ if isset .Params "repo" }}
+      <div>
+        <h3>Source Code</h3>
+        <div>
+          {{ if eq (.Params.repo.type | default "github" ) "github" }}
+          <div><strong>GithHub: </strong> <span>(<a href="https://github.com/{{ .Params.repo.id }}">{{ .Params.repo.id }}</a>)</span>{{ partial "githubrepostars.html" (dict "type" "stars" "id" .Params.repo.id) }}</div>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+  {{ end }}
+
+
+</article>
+</div>
+{{ partial "sidebar.html" . }}
+</div>
+
+{{ partial "fb-script.html" . }}
+{{ end }}
