@@ -26,7 +26,20 @@
   </url>
   
   <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/plugins/blacksmith/</loc>
+  </url>
+  
+  <url>
     <loc>https://nolte.github.io/minecraft-gameserver/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/plugins/citizens/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/tags/community/</loc>
     <priority>0</priority>
   </url>
   
@@ -39,11 +52,20 @@
   </url>
   
   <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/plugins/denizen/</loc>
+  </url>
+  
+  <url>
     <loc>https://nolte.github.io/minecraft-gameserver/plugins/discordsrv/</loc>
   </url>
   
   <url>
     <loc>https://nolte.github.io/minecraft-gameserver/plugins/dynmap/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/tags/economy/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -61,6 +83,11 @@
   </url>
   
   <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/tags/monitoring/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://nolte.github.io/minecraft-gameserver/plugins/multiverse-netherportals/</loc>
   </url>
   
@@ -73,8 +100,26 @@
   </url>
   
   <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/tags/multiworld/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/tags/npc/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/plugins/nuvotifier/</loc>
+  </url>
+  
+  <url>
     <loc>https://nolte.github.io/minecraft-gameserver/pages/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/plugins/perworldinventory/</loc>
   </url>
   
   <url>
@@ -88,6 +133,10 @@
   </url>
   
   <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/plugins/prometheus/</loc>
+  </url>
+  
+  <url>
     <loc>https://nolte.github.io/minecraft-gameserver/plugins/sentinel/</loc>
   </url>
   
@@ -97,7 +146,20 @@
   </url>
   
   <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/tags/technic/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/plugins/theneweconomy/</loc>
+  </url>
+  
+  <url>
     <loc>https://nolte.github.io/minecraft-gameserver/plugins/vault/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/plugins/votingplugin/</loc>
   </url>
   
   <url>
@@ -118,34 +180,6 @@
   
   <url>
     <loc>https://nolte.github.io/minecraft-gameserver/plugins/worldguard/</loc>
-  </url>
-  
-  <url>
-    <loc>https://nolte.github.io/minecraft-gameserver/plugins/blacksmith/</loc>
-  </url>
-  
-  <url>
-    <loc>https://nolte.github.io/minecraft-gameserver/plugins/citizens/</loc>
-  </url>
-  
-  <url>
-    <loc>https://nolte.github.io/minecraft-gameserver/plugins/denizen/</loc>
-  </url>
-  
-  <url>
-    <loc>https://nolte.github.io/minecraft-gameserver/plugins/nuvotifier/</loc>
-  </url>
-  
-  <url>
-    <loc>https://nolte.github.io/minecraft-gameserver/plugins/perworldinventory/</loc>
-  </url>
-  
-  <url>
-    <loc>https://nolte.github.io/minecraft-gameserver/plugins/prometheus/</loc>
-  </url>
-  
-  <url>
-    <loc>https://nolte.github.io/minecraft-gameserver/plugins/votingplugin/</loc>
   </url>
   
 </urlset>

@@ -10,5 +10,59 @@
 	<atom:link href="https://nolte.github.io/minecraft-gameserver/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Community</title>
+      <link>https://nolte.github.io/minecraft-gameserver/tags/community/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/tags/community/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Economy</title>
+      <link>https://nolte.github.io/minecraft-gameserver/tags/economy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/tags/economy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monitoring</title>
+      <link>https://nolte.github.io/minecraft-gameserver/tags/monitoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/tags/monitoring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multiworld</title>
+      <link>https://nolte.github.io/minecraft-gameserver/tags/multiworld/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/tags/multiworld/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Npc</title>
+      <link>https://nolte.github.io/minecraft-gameserver/tags/npc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/tags/npc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Technic</title>
+      <link>https://nolte.github.io/minecraft-gameserver/tags/technic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/tags/technic/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

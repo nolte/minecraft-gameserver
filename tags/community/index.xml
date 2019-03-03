@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Community on Minecraft GameServer</title>
+    <link>https://nolte.github.io/minecraft-gameserver/tags/community/</link>
+    <description>Recent content in Community on Minecraft GameServer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    
+	<atom:link href="https://nolte.github.io/minecraft-gameserver/tags/community/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DiscordSRV</title>
+      <link>https://nolte.github.io/minecraft-gameserver/plugins/discordsrv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/plugins/discordsrv/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>DynMap</title>
+      <link>https://nolte.github.io/minecraft-gameserver/plugins/dynmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/plugins/dynmap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EssentialsX</title>
+      <link>https://nolte.github.io/minecraft-gameserver/plugins/essentialsx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/plugins/essentialsx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NuVotifier</title>
+      <link>https://nolte.github.io/minecraft-gameserver/plugins/nuvotifier/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/plugins/nuvotifier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VotingPlugin</title>
+      <link>https://nolte.github.io/minecraft-gameserver/plugins/votingplugin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/plugins/votingplugin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WorldGuard</title>
+      <link>https://nolte.github.io/minecraft-gameserver/plugins/worldguard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/plugins/worldguard/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

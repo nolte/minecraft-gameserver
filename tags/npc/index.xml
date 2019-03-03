@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Npc on Minecraft GameServer</title>
+    <link>https://nolte.github.io/minecraft-gameserver/tags/npc/</link>
+    <description>Recent content in Npc on Minecraft GameServer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    
+	<atom:link href="https://nolte.github.io/minecraft-gameserver/tags/npc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blacksmith</title>
+      <link>https://nolte.github.io/minecraft-gameserver/plugins/blacksmith/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/plugins/blacksmith/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Citizens 2</title>
+      <link>https://nolte.github.io/minecraft-gameserver/plugins/citizens/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/plugins/citizens/</guid>
+      <description>  /npc list /npc tp (zum npc teleportieren) /npc path (anfangen wegpunkte zu setzen) /npc text (setzt text für die interaktion) range 5 /pex group admins add *  (probleme mit /npc text) todo Querverbindungen &amp;hellip;
+Videos   </description>
+    </item>
+    
+    <item>
+      <title>Denizen</title>
+      <link>https://nolte.github.io/minecraft-gameserver/plugins/denizen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/plugins/denizen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sentinel</title>
+      <link>https://nolte.github.io/minecraft-gameserver/plugins/sentinel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/plugins/sentinel/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

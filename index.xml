@@ -17,7 +17,7 @@
       <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://nolte.github.io/minecraft-gameserver/posts/introduction/</guid>
-      <description>Der Server wurde durch den Einsatz diverser Plugins erweitert, CraftBook, DiscordSRV, DynMap, EssentialsX, LuckPerms, Multiverse-NetherPortals, Multiverse-Portals, Multiverse-SignPortals, Sentinel, Vault, WorldEdit, WorldGuard, blacksmith, citizens 2, denizen, nuvotifier, per world inventory, prometheus, votingplugin, </description>
+      <description>Der Server wurde durch den Einsatz diverser Plugins erweitert, Blacksmith, Citizens 2, CraftBook, Denizen, DiscordSRV, DynMap, EssentialsX, LuckPerms, Multiverse-NetherPortals, Multiverse-Portals, Multiverse-SignPortals, NuVotifier, PerWorldInventory, Prometheus, Sentinel, TheNewEconomy, Vault, VotingPlugin, WorldEdit, WorldGuard, </description>
     </item>
     
     <item>
@@ -46,7 +46,7 @@ Die Infrastruktur  Star Watch Fork Issue          Die Infrastruktur wird aktuell
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://nolte.github.io/minecraft-gameserver/pages/plugins/</guid>
-      <description>xxx CraftBook, (CraftBook ermöglicht es komplexe Block Aktivitäten über Schilder zu steuern (Toore, Brücken Fahrstühle usw...).) DiscordSRV, (DiscordSRV wird verwendet um einen bidirektionalen Chat zwischen Minecraft und Discord zu ermöglichen.) DynMap, (Html Google Like Minecraft Map) EssentialsX, (Nützliche Sammlung von Befehlen und Erweiterungen, z.B. Plegen der Willkommensnachricht, AFK system usw...) LuckPerms, (Permission Controll) Multiverse-NetherPortals Multiverse-Portals, (Um eine Verbindung zwischen einzelnen Welten, und eine Simple Transportmöglichkeit zu ermöglichen wird Multiverse-Portals verwendet.) Multiverse-SignPortals Sentinel Vault WorldEdit WorldGuard blacksmith citizens 2 denizen nuvotifier per world inventory prometheus votingplugin </description>
+      <description>xxx Blacksmith, (Schmied Plugin, ermöglicht das Reparieren von Werkzeugen.) Citizens 2, (NPC Plugin für die Bukkit API.) CraftBook, (CraftBook ermöglicht es komplexe Block Aktivitäten über Schilder zu steuern (Toore, Brücken Fahrstühle usw...).) Denizen, (Erweiterung für Citizens) DiscordSRV, (DiscordSRV wird verwendet um einen bidirektionalen Chat zwischen Minecraft und Discord zu ermöglichen.) DynMap, (Html Google Like Minecraft Map) EssentialsX, (Nützliche Sammlung von Befehlen und Erweiterungen, z.B. Plegen der Willkommensnachricht, AFK system usw...) LuckPerms, (Permission Controll) Multiverse-NetherPortals Multiverse-Portals, (Um eine Verbindung zwischen einzelnen Welten, und eine Simple Transportmöglichkeit zu ermöglichen wird Multiverse-Portals verwendet.</description>
     </item>
     
     <item>
@@ -56,6 +56,25 @@ Die Infrastruktur  Star Watch Fork Issue          Die Infrastruktur wird aktuell
       
       <guid>https://nolte.github.io/minecraft-gameserver/pages/about/</guid>
       <description>about</description>
+    </item>
+    
+    <item>
+      <title>Blacksmith</title>
+      <link>https://nolte.github.io/minecraft-gameserver/plugins/blacksmith/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/plugins/blacksmith/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Citizens 2</title>
+      <link>https://nolte.github.io/minecraft-gameserver/plugins/citizens/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/plugins/citizens/</guid>
+      <description>  /npc list /npc tp (zum npc teleportieren) /npc path (anfangen wegpunkte zu setzen) /npc text (setzt text für die interaktion) range 5 /pex group admins add *  (probleme mit /npc text) todo Querverbindungen &amp;hellip;
+Videos   </description>
     </item>
     
     <item>
@@ -73,6 +92,15 @@ Die Infrastruktur  Star Watch Fork Issue          Die Infrastruktur wird aktuell
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://nolte.github.io/minecraft-gameserver/plugins/craftbook/</guid>
+      <description> Videos   </description>
+    </item>
+    
+    <item>
+      <title>Denizen</title>
+      <link>https://nolte.github.io/minecraft-gameserver/plugins/denizen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/plugins/denizen/</guid>
       <description></description>
     </item>
     
@@ -140,6 +168,33 @@ Die Infrastruktur  Star Watch Fork Issue          Die Infrastruktur wird aktuell
     </item>
     
     <item>
+      <title>NuVotifier</title>
+      <link>https://nolte.github.io/minecraft-gameserver/plugins/nuvotifier/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/plugins/nuvotifier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PerWorldInventory</title>
+      <link>https://nolte.github.io/minecraft-gameserver/plugins/perworldinventory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/plugins/perworldinventory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prometheus</title>
+      <link>https://nolte.github.io/minecraft-gameserver/plugins/prometheus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/plugins/prometheus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Sentinel</title>
       <link>https://nolte.github.io/minecraft-gameserver/plugins/sentinel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -149,11 +204,29 @@ Die Infrastruktur  Star Watch Fork Issue          Die Infrastruktur wird aktuell
     </item>
     
     <item>
+      <title>TheNewEconomy</title>
+      <link>https://nolte.github.io/minecraft-gameserver/plugins/theneweconomy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/plugins/theneweconomy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Vault</title>
       <link>https://nolte.github.io/minecraft-gameserver/plugins/vault/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://nolte.github.io/minecraft-gameserver/plugins/vault/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VotingPlugin</title>
+      <link>https://nolte.github.io/minecraft-gameserver/plugins/votingplugin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/plugins/votingplugin/</guid>
       <description></description>
     </item>
     
@@ -202,69 +275,6 @@ Orte    Place WorldGuardId Koordinaten Beschreibung     Berg Dorf  4047 67 -5768
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://nolte.github.io/minecraft-gameserver/plugins/worldguard/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blacksmith</title>
-      <link>https://nolte.github.io/minecraft-gameserver/plugins/blacksmith/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nolte.github.io/minecraft-gameserver/plugins/blacksmith/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>citizens 2</title>
-      <link>https://nolte.github.io/minecraft-gameserver/plugins/citizens/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nolte.github.io/minecraft-gameserver/plugins/citizens/</guid>
-      <description>/npc list /npc tp (zum npc teleportieren) /npc path (anfangen wegpunkte zu setzen) /npc text (setzt text für die interaktion) range 5 /pex group admins add *  (probleme mit /npc text) todo Querverbindungen &amp;hellip;</description>
-    </item>
-    
-    <item>
-      <title>denizen</title>
-      <link>https://nolte.github.io/minecraft-gameserver/plugins/denizen/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nolte.github.io/minecraft-gameserver/plugins/denizen/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>nuvotifier</title>
-      <link>https://nolte.github.io/minecraft-gameserver/plugins/nuvotifier/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nolte.github.io/minecraft-gameserver/plugins/nuvotifier/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>per world inventory</title>
-      <link>https://nolte.github.io/minecraft-gameserver/plugins/perworldinventory/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nolte.github.io/minecraft-gameserver/plugins/perworldinventory/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>prometheus</title>
-      <link>https://nolte.github.io/minecraft-gameserver/plugins/prometheus/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nolte.github.io/minecraft-gameserver/plugins/prometheus/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>votingplugin</title>
-      <link>https://nolte.github.io/minecraft-gameserver/plugins/votingplugin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nolte.github.io/minecraft-gameserver/plugins/votingplugin/</guid>
       <description></description>
     </item>
     
