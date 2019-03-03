@@ -1,0 +1,80 @@
+{{ define "main" }}
+<div class="row">
+<div class="col-md-8">
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ .Title }}</h1>
+  </header>
+
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+
+
+
+
+{{ if (isset .Params "places") }}
+<div class="post-links">
+    <h2>Plätze</h2>
+
+      <div class="table-responsive">
+        <table class="table">
+          <tr>
+            <th>Place</th>
+            <th>WorldGuardId</th>
+            <th>Koordinaten</th>
+            <th>Beschreibung</th>
+          </tr>
+
+          {{ range .Params.places }}
+          <tr>
+            <td>{{ .name }}</td>
+            <td>{{ .worldGuardId }}</td>
+            <td><button class="btn btn-sm btn-copy" data-toggle="tooltip" data-placement="top" title="copy" data-clipboard-text="/tp {{ .coordinate.coor_x }} {{ .coordinate.coor_y }} {{ .coordinate.coor_z }}"> {{ .coordinate.coor_x }} {{ .coordinate.coor_y }} {{ .coordinate.coor_z }}</button> </td>
+            <td>{{ .description }}</td>
+          </tr>
+          {{ end }}
+        </table>
+      </div>
+</div>
+{{ end }}
+
+
+<div>
+<h2>Regions</h2>
+{{ $regions := index .Site.Data.worlds .Params.name }}
+{{ $regionsKeys := $regions.regions }}
+{{ range $path, $methods := $regionsKeys }}
+{{ range $path2, $region := $methods }}
+<h3>{{ $path2 }}</h3>
+{{ if isset $region "max" }}
+<div><span><strong>min:</strong><code>{{ $region.min.x }} {{ $region.min.y }} {{ $region.min.z }}</code></span>
+<span>
+<strong>max:</strong><code>{{ $region.max.x }} {{ $region.max.y }}  {{ $region.max.z }}</code>
+</span>
+</div>
+{{ end }}
+<div>
+  {{ $region.members }}
+</div>
+<div>
+  <strong>Flags</strong>
+  <ul>
+  {{ range $key, $value := $region.flags }}
+  <li>{{ $key }} : {{ $value }}</li>
+  {{ end }}
+  <ul>
+</div>
+{{ end }}
+{{ end }}
+
+</div>
+</article>
+</div>
+{{ partial "sidebar-world.html" . }}
+</div>
+
+{{ partial "fb-script.html" . }}
+{{ partial "copy-script.html" . }}
+{{ end }}

@@ -1,0 +1,44 @@
+<div class="col-md-4 mt20">
+        <div class="post-img">
+           {{ if .Params.img }}
+            <img width="600" src="{{ .Site.BaseURL}}images/{{ .Params.img }}" alt="{{ .Params.title }}">
+            {{ else }}
+            <img width="600" src="{{ .Site.BaseURL }}images/{{ .Site.Params.defaultImage }}" alt="webjeda">
+            {{ end }}
+        </div>
+
+
+        <div class="mt10 recent">
+            <h2>Übersicht</h2>
+             <ul>
+               <li>
+                 <strong>World Name:</strong>
+               </li>
+               <li>
+                  <code>{{ .Params.name }}</code>
+               </li>
+               {{ if isset .Params "spawn" }}
+               <li>
+                 <strong>Spawn:</strong>
+               </li>
+               <li>
+                  <code>{{ .Params.spawn.coor_x }} {{ .Params.spawn.coor_y }} {{ .Params.spawn.coor_z }}</code>
+               </li>
+               {{ end }}
+               <li>
+                 <strong>Owner:</strong>
+               </li>
+               <li>
+                 <ul class="list-inline">
+                 {{ range .Params.owners }}
+                   <li><code>{{ . }}</code></li>
+                 {{ end }}
+                 </ul>
+               </li>
+               </ul>
+
+        </div>
+
+        <br>
+
+</div>

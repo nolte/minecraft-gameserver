@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Technische Beschreibung
-date: 2019-02-26
-disqus_identifier: "technical-overview"
-disqusShortname: "minecraft-gameserver"
+date: 2019-02-25
 ---
 
 Das *Host You Own Minecraft Server* Projekt besteht im wesentlichen aus drei GitRepositories, welche alle bei [GitHub](https://github.com/nolte?utf8=%E2%9C%93&tab=repositories&q=minecraft&type=&language=) zu finden sind. Ziel ist es die Komplette Infrastruktur im SourceCode zu verwalten und öffentlich auf GitHub für die Wiederverwendung zu presentieren.

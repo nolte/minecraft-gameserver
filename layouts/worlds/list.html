@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+<div class="home">
+<div class="table-responsive">
+  <table class="table">
+    <caption>Liste der Welten</caption>
+    <tr>
+      <th>Name</th>
+      <th>Owners</th>
+      <th>Beschreibung</th>
+    </tr>
+    {{ with .Site.GetPage "section" "worlds" }}
+    {{ range .Pages }}
+    <tr>
+      <td><a href="{{.Permalink}}">{{ .Title }}</a> <small>(<code>{{ .Params.name }}</code>)</small></td>
+        <td>
+          <ul class="list-inline">
+        {{ range .Params.owners }}
+          <li><code> {{ . }}</code></li>
+        {{ end }}
+      </ul>
+      </td>
+      <td>{{ if .Params.description }}{{ .Params.description }}{{ end }}</td>
+    </tr>
+    {{ end }}
+    {{ end }}
+  </table>
+</div>
+</div>
+
+{{ end }}
