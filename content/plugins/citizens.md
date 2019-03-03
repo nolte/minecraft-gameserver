@@ -11,8 +11,8 @@ links:
     title: jenkins
   - url: https://wiki.citizensnpcs.co/Denizen
   - url: https://wiki.citizensnpcs.co/Editors
-  - url: https://www.youtube.com/watch?v=9hhxnp-RjCM
 ---
+
 
 
 ```
@@ -26,3 +26,8 @@ links:
 
 (probleme mit /npc text)
 todo Querverbindungen ...
+
+
+## Videos
+
+{{< youtube "9hhxnp-RjCM" >}}

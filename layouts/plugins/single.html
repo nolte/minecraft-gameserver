@@ -28,7 +28,20 @@
       </div>
       {{ end }}
   {{ end }}
+{{ if (isset .Params "videos") }}
+<div class="post-links">
+    <h2>Videos</h2>
+    <div>
+      <ul>
+        {{ range .Params.videos }}
+        <li></id>
+        {{ end }}
 
+      </ul>
+    </div>
+
+</div>
+{{ end }}
 
 </article>
 </div>

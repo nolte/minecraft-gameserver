@@ -10,5 +10,9 @@ tags:
 links:
   - url: http://enginehub.github.io/CraftBookDocs/mechanics/index.html
     title: Mechanics
-  - url: https://www.youtube.com/watch?v=akSvqrvS1z4
 ---
+
+
+## Videos
+
+{{< youtube "akSvqrvS1z4" >}}
