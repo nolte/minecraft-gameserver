@@ -5,6 +5,9 @@ description: Nützliche Sammlung von Befehlen und Erweiterungen, z.B. Plegen der
 repo:
   type: github
   id: EssentialsX/Essentials
+tags:
+  - technic
+  - community
 links:
   - url: https://github.com/EssentialsX/Essentials/wiki
     title: Wiki

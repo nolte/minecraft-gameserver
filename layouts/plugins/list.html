@@ -7,6 +7,7 @@
     <tr>
       <th>Plugin</th>
       <th>Github</th>
+      <th>Tags</th>
       <th>Beschreibung</th>
     </tr>
     {{ with .Site.GetPage "section" "plugins" }}
@@ -15,6 +16,13 @@
       <td><a href="{{.Permalink}}">{{ .Title }}</a></td>
       <td>
         <a href="https://github.com/{{.Params.repo.id}}"> <span class="fab fa-github" data-toggle="tooltip" data-placement="bottom" title="{{ .Params.repo.id }}"></span></a></td>
+        <td>
+          <ul class="list-inline">
+        {{ range .Params.tags }}
+          <li><span class="badge badge-primary"> {{ . }}</span></li>
+        {{ end }}
+      </ul>
+      </td>
       <td>{{ if .Params.description }}{{ .Params.description }}{{ end }}</td>
     </tr>
     {{ end }}

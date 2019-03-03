@@ -5,7 +5,8 @@ description: CraftBook ermöglicht es komplexe Block Aktivitäten über Schilder
 repo:
   type: github
   id: EngineHub/CraftBook
-
+tags:
+  - technic
 links:
   - url: http://enginehub.github.io/CraftBookDocs/mechanics/index.html
     title: Mechanics

@@ -1,0 +1,50 @@
+<div class="col-md-4 mt20">
+        <div class="post-img">
+           {{ if .Params.img }}
+            <img width="600" src="{{ .Site.BaseURL}}images/{{ .Params.img }}" alt="{{ .Params.title }}">
+            {{ else }}
+            <img width="600" src="{{ .Site.BaseURL }}images/{{ .Site.Params.defaultImage }}" alt="webjeda">
+            {{ end }}
+        </div>
+
+
+        <div class="mt10 recent">
+            <h2>Übersicht</h2>
+             <ul>
+               <li>
+                 <div>
+                   {{ if eq (.Params.repo.type | default "github" ) "github" }}
+                   <div><strong>GithHub: </strong> <span>(<a href="https://github.com/{{ .Params.repo.id }}">{{ .Params.repo.id }}</a>)</span>{{ partial "githubrepostars.html" (dict "type" "stars" "id" .Params.repo.id) }}</div>
+                   {{ end }}
+                 </div>
+               </li>
+               <li>
+                 <strong>Tags:</strong>
+               </li>
+               <li>
+                 <ul class="list-inline">
+                 {{ range .Params.tags }}
+                   <li><span class="badge badge-primary"> {{ . }}</span></li>
+                 {{ end }}
+                 </ul>
+               </li>
+               <li>
+                 <strong>Related Plugins:</strong>
+               </li>
+               <ul>
+                 {{ $related := .Site.RegularPages.RelatedTo ( keyVals "tags" .Params.tags ) }}
+                 {{ $pageid := .Permalink }}
+                 {{ range $related.ByTitle }}
+                  {{ $currentPage := . }}
+                  {{ if ne $pageid .Permalink  }}
+                        <li><a href="{{ .Permalink }}"> {{ .Title }}</a></li>
+                  {{ end }}
+
+                 {{ end }}
+               </ul>
+              </ul>
+        </div>
+
+        <br>
+
+</div>

@@ -1,12 +1,17 @@
 ---
 layout: page
 title: Citizens 2
+description: NPC Plugin für die Bukkit API.
 repo:
-  id: mcmonkeyprojects/Sentinel
+  id: CitizensDev/Citizens2
+tags:
+  - npc
 links:
- - url: https://wiki.citizensnpcs.co/Denizen
- - url: https://wiki.citizensnpcs.co/Editors
- - url: https://www.youtube.com/watch?v=9hhxnp-RjCM
+  - url: https://ci.citizensnpcs.co/job/Citizens2
+    title: jenkins
+  - url: https://wiki.citizensnpcs.co/Denizen
+  - url: https://wiki.citizensnpcs.co/Editors
+  - url: https://www.youtube.com/watch?v=9hhxnp-RjCM
 ---
 
 

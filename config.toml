@@ -25,3 +25,7 @@ paginate = 6
   [params.copyright]
      name = "nolte"
      link = "http://github.com/nolte"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"

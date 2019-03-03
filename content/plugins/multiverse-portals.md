@@ -5,6 +5,8 @@ description: Um eine Verbindung zwischen einzelnen Welten, und eine Simple Trans
 repo:
   type: github
   id: Multiverse/Multiverse-Portals
+tags:
+  - multiworld  
 links:
   - url: https://github.com/Multiverse/Multiverse-Portals/wiki/Command-Reference#create
   - url: https://github.com/Multiverse/Multiverse-Portals/wiki/Basic-portal-tutorial

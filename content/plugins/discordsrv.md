@@ -5,6 +5,8 @@ description: DiscordSRV wird verwendet um einen bidirektionalen Chat zwischen Mi
 repo:
   type: github
   id: DiscordSRV/DiscordSRV
+tags:
+  - community
 links:
   - url: https://discordapp.com
 ---
