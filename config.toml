@@ -3,6 +3,7 @@ languageCode = "de"
 title = "Minecraft GameServer"
 theme = "hugo-cards"
 paginate = 6
+disqusShortname = "minecraft-gameserver"
 
 [params]
   builtBy = "nolte"
@@ -20,7 +21,9 @@ paginate = 6
   fbPageTitle = ""
 
   analytics = ""
-  disqus = ""
+
+  disqusShortname = "minecraft-gameserver"
+  disqus = "minecraft-gameserver"
 
   [params.copyright]
      name = "nolte"
