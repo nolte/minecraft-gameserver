@@ -14,6 +14,10 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <script async defer src="https://buttons.github.io/buttons.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 
 
@@ -36,6 +40,7 @@
     
     <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://nolte.github.io/minecraft-gameserver/worlds/">Welten</a></li>
         <li><a href="https://nolte.github.io/minecraft-gameserver/plugins/">Plugins</a></li>
         <li><a href="https://nolte.github.io/minecraft-gameserver/pages/about/">About</a></li>
         <li><a href="https://nolte.github.io/minecraft-gameserver/pages/contact/">Contact</a></li>
@@ -49,94 +54,52 @@
         
 <div class="row">
 <div class="col-md-8">
-<article class="post">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 class="post-title">World Flat</h1>
-  </header>
+          <header class="post-header">
+            <h1 class="post-title" itemprop="name headline">Client Vorbereitung</h1>
+            <p class="post-meta"><time datetime='2019-03-01T00:00:00Z' itemprop="datePublished">March 1, 2019</time></p>
+                 
+          </header>
 
-  <div class="post-content">
+          <div class="post-content" itemprop="articleBody">
+            <p>Als Client Seitiges Ressourcen Pack verwenden wir <a href="https://resourcepack.net/gerudoku-resource-pack/">Gerudoku Faithful 3D Models</a>.</p>
+
+<p>Eine Akutelle version von  <a href="https://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.13.2.html">minecraftforge</a></p>
+
+          </div>
+
+    </article>
+    <div class="row">
+        
+         
+<div id="disqus_thread"></div>
+<script defer>
+(function() {
+    var d = document, s = d.createElement('script');
+    s.src = '//minecraft-gameserver.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+        
+    </div>
     
-
-<h1 id="flat-construction-world">Flat Construction World</h1>
-
-<table>
-<thead>
-<tr>
-<th>Place</th>
-<th>WorldGuardId</th>
-<th>Koordinaten</th>
-<th>Beschreibung</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>Main</td>
-<td></td>
-<td>21 4 6</td>
-<td>Haupt Bereich für den Spielbereich</td>
-</tr>
-
-<tr>
-<td>rail</td>
-<td></td>
-<td>-330 4 -200</td>
-<td>Railway Area</td>
-</tr>
-
-<tr>
-<td>Farmv2</td>
-<td></td>
-<td>-1424 20 190</td>
-<td>Neue Farm</td>
-</tr>
-
-<tr>
-<td>railway rohstoff trasport</td>
-<td></td>
-<td>-391 4 290</td>
-<td></td>
-</tr>
-
-<tr>
-<td>Hopper Chest Stuff</td>
-<td></td>
-<td>-374 4 182</td>
-<td></td>
-</tr>
-
-<tr>
-<td>Connected Farm Buildings</td>
-<td></td>
-<td>-1137 74 -237</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-
-<p>137 24 -241</p>
-
-<h2 id="command-book-test-area">Command Book Test Area</h2>
-
-<ul>
-<li>Area<br />
-<code>min: {x: 100.0, y: 1.0, z: 100.0} max: {x: 200.0, y: 100.0,
-z: 200.0}</code></li>
-</ul>
-
-<h2 id="railway-test-area">Railway Test Area</h2>
-
-<ul>
-<li>Area<br />
-<code>min: {x: -100.0, y: 1.0, z: -100.0} max: {x: -400.0, y: 100.0, z:
--400.0}</code></li>
-</ul>
-
-  </div>
-
-</article>
+    <div class="row">
+            <ul class="pager">
+             
+                    <li><a class="next" href="/minecraft-gameserver/posts/locations/">&laquo; Plätze und Koordinaten</a></li>
+              
+              
+                <li><a class="previous" href="/minecraft-gameserver/posts/introduction/">Einleitung &raquo;</a></li>
+              
+            </ul>
+    </div>
 </div>
+
+
 <div class="col-md-4 mt20">
         <div class="post-img">
            
@@ -151,19 +114,19 @@ z: 200.0}</code></li>
                 
 
                       <li>
-                      <p><a href="/minecraft-gameserver/posts/introduction/">Einleitung</a><small>&nbsp;&nbsp;February 26, 2019</small></p>
+                      <p><a href="/minecraft-gameserver/posts/introduction/">Einleitung</a><small>&nbsp;&nbsp;March 3, 2019</small></p>
                       </li>
 
                 
 
                       <li>
-                      <p><a href="/minecraft-gameserver/posts/locations/">Plätze und Koordinaten</a><small>&nbsp;&nbsp;February 26, 2019</small></p>
+                      <p><a href="/minecraft-gameserver/posts/client-preparation/">Client Vorbereitung</a><small>&nbsp;&nbsp;March 1, 2019</small></p>
                       </li>
 
                 
 
                       <li>
-                      <p><a href="/minecraft-gameserver/posts/techincal-description/">Technische Beschreibung</a><small>&nbsp;&nbsp;February 26, 2019</small></p>
+                      <p><a href="/minecraft-gameserver/posts/locations/">Plätze und Koordinaten</a><small>&nbsp;&nbsp;February 27, 2019</small></p>
                       </li>
 
                 
@@ -173,7 +136,9 @@ z: 200.0}</code></li>
         <br>
 
 </div>
+
 </div>
+
 
 
 

@@ -6,7 +6,7 @@
     <description>Recent content in Posts on Minecraft GameServer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <lastBuildDate>Tue, 26 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://nolte.github.io/minecraft-gameserver/posts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,16 +14,26 @@
     <item>
       <title>Einleitung</title>
       <link>https://nolte.github.io/minecraft-gameserver/posts/introduction/</link>
-      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://nolte.github.io/minecraft-gameserver/posts/introduction/</guid>
       <description>Der Server wurde durch den Einsatz diverser Plugins erweitert, Blacksmith, Citizens 2, CraftBook, Denizen, DiscordSRV, DynMap, EssentialsX, LuckPerms, Multiverse-NetherPortals, Multiverse-Portals, Multiverse-SignPortals, NuVotifier, PerWorldInventory, Prometheus, Sentinel, TheNewEconomy, Vault, VotingPlugin, WorldEdit, WorldGuard, </description>
     </item>
     
     <item>
+      <title>Client Vorbereitung</title>
+      <link>https://nolte.github.io/minecraft-gameserver/posts/client-preparation/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/posts/client-preparation/</guid>
+      <description>Als Client Seitiges Ressourcen Pack verwenden wir Gerudoku Faithful 3D Models.
+Eine Akutelle version von minecraftforge</description>
+    </item>
+    
+    <item>
       <title>Plätze und Koordinaten</title>
       <link>https://nolte.github.io/minecraft-gameserver/posts/locations/</link>
-      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 27 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://nolte.github.io/minecraft-gameserver/posts/locations/</guid>
       <description> Creative World Survival World Flat World  </description>
@@ -32,7 +42,7 @@
     <item>
       <title>Technische Beschreibung</title>
       <link>https://nolte.github.io/minecraft-gameserver/posts/techincal-description/</link>
-      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://nolte.github.io/minecraft-gameserver/posts/techincal-description/</guid>
       <description>Das Host You Own Minecraft Server Projekt besteht im wesentlichen aus drei GitRepositories, welche alle bei GitHub zu finden sind. Ziel ist es die Komplette Infrastruktur im SourceCode zu verwalten und öffentlich auf GitHub für die Wiederverwendung zu presentieren.

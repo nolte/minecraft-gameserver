@@ -6,7 +6,7 @@
     <description>Recent content on Minecraft GameServer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <lastBuildDate>Tue, 26 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://nolte.github.io/minecraft-gameserver/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,16 +14,26 @@
     <item>
       <title>Einleitung</title>
       <link>https://nolte.github.io/minecraft-gameserver/posts/introduction/</link>
-      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://nolte.github.io/minecraft-gameserver/posts/introduction/</guid>
       <description>Der Server wurde durch den Einsatz diverser Plugins erweitert, Blacksmith, Citizens 2, CraftBook, Denizen, DiscordSRV, DynMap, EssentialsX, LuckPerms, Multiverse-NetherPortals, Multiverse-Portals, Multiverse-SignPortals, NuVotifier, PerWorldInventory, Prometheus, Sentinel, TheNewEconomy, Vault, VotingPlugin, WorldEdit, WorldGuard, </description>
     </item>
     
     <item>
+      <title>Client Vorbereitung</title>
+      <link>https://nolte.github.io/minecraft-gameserver/posts/client-preparation/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/posts/client-preparation/</guid>
+      <description>Als Client Seitiges Ressourcen Pack verwenden wir Gerudoku Faithful 3D Models.
+Eine Akutelle version von minecraftforge</description>
+    </item>
+    
+    <item>
       <title>Plätze und Koordinaten</title>
       <link>https://nolte.github.io/minecraft-gameserver/posts/locations/</link>
-      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 27 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://nolte.github.io/minecraft-gameserver/posts/locations/</guid>
       <description> Creative World Survival World Flat World  </description>
@@ -32,7 +42,7 @@
     <item>
       <title>Technische Beschreibung</title>
       <link>https://nolte.github.io/minecraft-gameserver/posts/techincal-description/</link>
-      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://nolte.github.io/minecraft-gameserver/posts/techincal-description/</guid>
       <description>Das Host You Own Minecraft Server Projekt besteht im wesentlichen aus drei GitRepositories, welche alle bei GitHub zu finden sind. Ziel ist es die Komplette Infrastruktur im SourceCode zu verwalten und öffentlich auf GitHub für die Wiederverwendung zu presentieren.
@@ -137,7 +147,9 @@ Videos   </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://nolte.github.io/minecraft-gameserver/plugins/luckperms/</guid>
-      <description></description>
+      <description>Check Command
+/lp check nolte07 essentials.motd  User zu einer Gruppe hinzufügen:
+/lp user nolte07 parent add gamers_creative_builder  </description>
     </item>
     
     <item>
@@ -232,32 +244,35 @@ Videos   </description>
     
     <item>
       <title>World Creative</title>
-      <link>https://nolte.github.io/minecraft-gameserver/pages/world-creative/</link>
+      <link>https://nolte.github.io/minecraft-gameserver/worlds/world-creative/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nolte.github.io/minecraft-gameserver/pages/world-creative/</guid>
-      <description>Creative World Die Creative World ist die Startwelt, auf welcher neue Spieler den Server betreten, von hier gelangt man über die Hauptstadt in anderen Welten.
+      <guid>https://nolte.github.io/minecraft-gameserver/worlds/world-creative/</guid>
+      <description> Die Creative World ist die Startwelt, auf welcher neue Spieler den Server betreten, von hier gelangt man über die Hauptstadt in anderen Welten.
 Diese Welt ist eine geschützte Welt auf welcher nur ausgewählte Spieler Bauen können. Die Spieler müssen Mitglied der Gruppe gamers_creative_builder sein.
 Spawn Koordinaten: 2642 25 -5552 (sollen noch an das SpawnDorf angepasst werden)
-Orte    Place WorldGuardId Koordinaten Beschreibung     Berg Dorf  4047 67 -5768 Das Bergdorf mit der Rohstoff Versorgung.</description>
+Ebenen    Höhe Beschreibung     123 Burg Ebene   115 Burg Bahn   106 Burg Vorposten Burgbahnhof   104 Laubengang Burgbahnhof   99 Laubengang Farm Bereich   97 Farmbereich   92 Farmbereich (Fleisch)   87 Farmbereich   82 Farmbereich   40 eingang tal   14 Ubahn    Portal    Portal ID Standort Ziel Beschreibung     world_city_castle 2562 96 -5869 e:world:4001,154,-5795 Magier Turm in der City, Portal zum Bergdorf   world_castle_city 4001 154 -5795 e:world:2562,96,-5869 Bergdorf Turm Portal Richtung City    4073 132 -5820  Bergdorf Haus Richtung Technik World    Defekte Bereiche  Defekter Map Bereich 2503 88 -5395  </description>
     </item>
     
     <item>
       <title>World Flat</title>
-      <link>https://nolte.github.io/minecraft-gameserver/pages/world-flat/</link>
+      <link>https://nolte.github.io/minecraft-gameserver/worlds/world-flat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nolte.github.io/minecraft-gameserver/pages/world-flat/</guid>
-      <description>Flat Construction World    Place WorldGuardId Koordinaten Beschreibung     Main  21 4 6 Haupt Bereich für den Spielbereich   rail  -330 4 -200 Railway Area   Farmv2  -1424 20 190 Neue Farm   railway rohstoff trasport  -391 4 290    Hopper Chest Stuff  -374 4 182    Connected Farm Buildings  -1137 74 -237     137 24 -241</description>
+      <guid>https://nolte.github.io/minecraft-gameserver/worlds/world-flat/</guid>
+      <description> 137 24 -241
+Command Book Test Area  Area
+min: {x: 100.0, y: 1.0, z: 100.0} max: {x: 200.0, y: 100.0, z: 200.0}  Railway Test Area  Area
+min: {x: -100.0, y: 1.0, z: -100.0} max: {x: -400.0, y: 100.0, z: -400.0}  </description>
     </item>
     
     <item>
       <title>World Survival</title>
-      <link>https://nolte.github.io/minecraft-gameserver/pages/world-survival/</link>
+      <link>https://nolte.github.io/minecraft-gameserver/worlds/world-survival/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nolte.github.io/minecraft-gameserver/pages/world-survival/</guid>
-      <description> Survival Map Orte    Place WorldGuardId Koordinaten Beschreibung     Mo &amp;amp; Co  -609 73 380    me  -805 70 176 Mein kleines Heim in der Survival Map   Bärschi  -937 78 579    Spawn  15 67 7 Pyramide    </description>
+      <guid>https://nolte.github.io/minecraft-gameserver/worlds/world-survival/</guid>
+      <description></description>
     </item>
     
     <item>

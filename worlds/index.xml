@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Worlds on Minecraft GameServer</title>
+    <link>https://nolte.github.io/minecraft-gameserver/worlds/</link>
+    <description>Recent content in Worlds on Minecraft GameServer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    
+	<atom:link href="https://nolte.github.io/minecraft-gameserver/worlds/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>World Creative</title>
+      <link>https://nolte.github.io/minecraft-gameserver/worlds/world-creative/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/worlds/world-creative/</guid>
+      <description> Die Creative World ist die Startwelt, auf welcher neue Spieler den Server betreten, von hier gelangt man über die Hauptstadt in anderen Welten.
+Diese Welt ist eine geschützte Welt auf welcher nur ausgewählte Spieler Bauen können. Die Spieler müssen Mitglied der Gruppe gamers_creative_builder sein.
+Spawn Koordinaten: 2642 25 -5552 (sollen noch an das SpawnDorf angepasst werden)
+Ebenen    Höhe Beschreibung     123 Burg Ebene   115 Burg Bahn   106 Burg Vorposten Burgbahnhof   104 Laubengang Burgbahnhof   99 Laubengang Farm Bereich   97 Farmbereich   92 Farmbereich (Fleisch)   87 Farmbereich   82 Farmbereich   40 eingang tal   14 Ubahn    Portal    Portal ID Standort Ziel Beschreibung     world_city_castle 2562 96 -5869 e:world:4001,154,-5795 Magier Turm in der City, Portal zum Bergdorf   world_castle_city 4001 154 -5795 e:world:2562,96,-5869 Bergdorf Turm Portal Richtung City    4073 132 -5820  Bergdorf Haus Richtung Technik World    Defekte Bereiche  Defekter Map Bereich 2503 88 -5395  </description>
+    </item>
+    
+    <item>
+      <title>World Flat</title>
+      <link>https://nolte.github.io/minecraft-gameserver/worlds/world-flat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/worlds/world-flat/</guid>
+      <description> 137 24 -241
+Command Book Test Area  Area
+min: {x: 100.0, y: 1.0, z: 100.0} max: {x: 200.0, y: 100.0, z: 200.0}  Railway Test Area  Area
+min: {x: -100.0, y: 1.0, z: -100.0} max: {x: -400.0, y: 100.0, z: -400.0}  </description>
+    </item>
+    
+    <item>
+      <title>World Survival</title>
+      <link>https://nolte.github.io/minecraft-gameserver/worlds/world-survival/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nolte.github.io/minecraft-gameserver/worlds/world-survival/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

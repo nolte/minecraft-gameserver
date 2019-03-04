@@ -14,6 +14,10 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <script async defer src="https://buttons.github.io/buttons.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 
 
@@ -36,6 +40,7 @@
     
     <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://nolte.github.io/minecraft-gameserver/worlds/">Welten</a></li>
         <li><a href="https://nolte.github.io/minecraft-gameserver/plugins/">Plugins</a></li>
         <li><a href="https://nolte.github.io/minecraft-gameserver/pages/about/">About</a></li>
         <li><a href="https://nolte.github.io/minecraft-gameserver/pages/contact/">Contact</a></li>
@@ -47,104 +52,60 @@
     <div class="container">
       <div class="wrapper">
         
-<div class="row">
-<div class="col-md-8">
-<article class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">World Survival</h1>
-  </header>
-
-  <div class="post-content">
+<div class="home">
+<div class="table-responsive">
+  <table class="table">
+    <caption>Liste der Welten</caption>
+    <tr>
+      <th>Name</th>
+      <th>Owners</th>
+      <th>Beschreibung</th>
+    </tr>
     
-
-<h1 id="survival-map">Survival Map</h1>
-
-<h2 id="orte">Orte</h2>
-
-<table>
-<thead>
-<tr>
-<th>Place</th>
-<th>WorldGuardId</th>
-<th>Koordinaten</th>
-<th>Beschreibung</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>Mo &amp; Co</td>
-<td></td>
-<td>-609 73 380</td>
-<td></td>
-</tr>
-
-<tr>
-<td>me</td>
-<td></td>
-<td>-805 70 176</td>
-<td>Mein kleines Heim in der Survival Map</td>
-</tr>
-
-<tr>
-<td>Bärschi</td>
-<td></td>
-<td>-937 78 579</td>
-<td></td>
-</tr>
-
-<tr>
-<td>Spawn</td>
-<td></td>
-<td>15 67 7</td>
-<td>Pyramide</td>
-</tr>
-</tbody>
-</table>
-
-  </div>
-
-</article>
-</div>
-<div class="col-md-4 mt20">
-        <div class="post-img">
-           
-            <img width="600" src="https://nolte.github.io/minecraft-gameserver/images/gopher.jpg" alt="webjeda">
-            
-        </div>
-            
+    
+    <tr>
+      <td><a href="https://nolte.github.io/minecraft-gameserver/worlds/world-creative/">World Creative</a> <small>(<code>world</code>)</small></td>
+        <td>
+          <ul class="list-inline">
         
-        <div class="mt10 recent">
-            <h2>Recent articles</h2>        
-             <ul>
-                
-
-                      <li>
-                      <p><a href="/minecraft-gameserver/posts/introduction/">Einleitung</a><small>&nbsp;&nbsp;February 26, 2019</small></p>
-                      </li>
-
-                
-
-                      <li>
-                      <p><a href="/minecraft-gameserver/posts/locations/">Plätze und Koordinaten</a><small>&nbsp;&nbsp;February 26, 2019</small></p>
-                      </li>
-
-                
-
-                      <li>
-                      <p><a href="/minecraft-gameserver/posts/techincal-description/">Technische Beschreibung</a><small>&nbsp;&nbsp;February 26, 2019</small></p>
-                      </li>
-
-                
-              </ul>
-        </div>
+          <li><code> gamers_creative_builder</code></li>
         
-        <br>
-
+      </ul>
+      </td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td><a href="https://nolte.github.io/minecraft-gameserver/worlds/world-flat/">World Flat</a> <small>(<code>world_flat</code>)</small></td>
+        <td>
+          <ul class="list-inline">
+        
+          <li><code> gamers_creative_builder</code></li>
+        
+          <li><code> gamers_survival_builder</code></li>
+        
+      </ul>
+      </td>
+      <td>Flache Welt, welche dazu dient Schematics und Co zu testen.</td>
+    </tr>
+    
+    <tr>
+      <td><a href="https://nolte.github.io/minecraft-gameserver/worlds/world-survival/">World Survival</a> <small>(<code>world_survival</code>)</small></td>
+        <td>
+          <ul class="list-inline">
+        
+          <li><code> gamers_survival_builder</code></li>
+        
+      </ul>
+      </td>
+      <td></td>
+    </tr>
+    
+    
+  </table>
 </div>
 </div>
-
 
 
       </div>

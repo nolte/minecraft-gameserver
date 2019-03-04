@@ -4,17 +4,22 @@
   
   <url>
     <loc>https://nolte.github.io/minecraft-gameserver/posts/introduction/</loc>
-    <lastmod>2019-02-26T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/posts/client-preparation/</loc>
+    <lastmod>2019-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://nolte.github.io/minecraft-gameserver/posts/locations/</loc>
-    <lastmod>2019-02-26T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://nolte.github.io/minecraft-gameserver/posts/techincal-description/</loc>
-    <lastmod>2019-02-26T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -78,7 +83,7 @@
   
   <url>
     <loc>https://nolte.github.io/minecraft-gameserver/</loc>
-    <lastmod>2019-02-26T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -128,7 +133,7 @@
   
   <url>
     <loc>https://nolte.github.io/minecraft-gameserver/posts/</loc>
-    <lastmod>2019-02-26T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -163,15 +168,15 @@
   </url>
   
   <url>
-    <loc>https://nolte.github.io/minecraft-gameserver/pages/world-creative/</loc>
+    <loc>https://nolte.github.io/minecraft-gameserver/worlds/world-creative/</loc>
   </url>
   
   <url>
-    <loc>https://nolte.github.io/minecraft-gameserver/pages/world-flat/</loc>
+    <loc>https://nolte.github.io/minecraft-gameserver/worlds/world-flat/</loc>
   </url>
   
   <url>
-    <loc>https://nolte.github.io/minecraft-gameserver/pages/world-survival/</loc>
+    <loc>https://nolte.github.io/minecraft-gameserver/worlds/world-survival/</loc>
   </url>
   
   <url>
@@ -180,6 +185,11 @@
   
   <url>
     <loc>https://nolte.github.io/minecraft-gameserver/plugins/worldguard/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nolte.github.io/minecraft-gameserver/worlds/</loc>
+    <priority>0</priority>
   </url>
   
 </urlset>
