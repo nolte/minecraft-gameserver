@@ -3,15 +3,15 @@ go:
 - master
 install:
 - go get github.com/spf13/hugo
-- git clone --depth 1 --recursive https://github.com/bul-ikana/hugo-cards.git themes/hugo-cards
+- git clone --depth 1 --recursive https://github.com/bul-ikana/hugo-cards.git blog/themes/hugo-cards
 script:
-- hugo
+- cd blog && hugo
 deploy:
   provider: pages
   skip-cleanup: true
   github-token: "$GITHUB_TOKEN"
   keep-history: true
-  local-dir: public/
+  local-dir: blog/public/
   on:
     branch: master
 env:
